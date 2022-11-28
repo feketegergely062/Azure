@@ -2,7 +2,7 @@
 
 html{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+
 }
 
 body {
@@ -16,7 +16,10 @@ body {
 }
 
 #tartalom {
+  max-width: 900px;
   background-color: rgba(4, 42, 63, 0.8);
+  margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 20px;
   padding: 40px;
 }
