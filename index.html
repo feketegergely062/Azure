@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Az Azure IoT Edge</title>
-  <link rel="stylesheet" type="text/css" href="Azure/style/styles.css">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
 <body>
   <div id="tartalom">
@@ -25,13 +25,15 @@
       <li>Jelenti a modulok állapotát a felhőnek a távoli monitorozáshoz.</li>
       <li>Felügyeli az alárendelt levelek eszközei és egy IoT Edge eszköz közötti kommunikációt egy IoT Edge eszközön lévő modulok, valamint egy IoT Edge eszköz és a felhő között.</li>
     </ul>
-    <div id="keret">
-    <img src="./runtime.png" alt="IoT Edge-futtatókornyezet">
+    <div class="keret">
+    <img src="./runtime.png" alt="IoT Edge-futtatókornyezet" title="">
+    <p class="kepalairas">IoT Edge-futtatókornyezet</p>
   </div>
       <h2>Verzióelőzmények</h2>
   
       Ez a táblázat a IoT Edge csomagok kiadásának legújabb verzióit tartalmazza, és kiemeli az egyes verziókra vonatkozó dokumentációs frissítéseket.
-    <table>
+    <table id="myTable">
+      
       <thead>
         <tr>
           <th>Kibocsátási megjegyzések és eszközök</th>
@@ -39,36 +41,36 @@
           <th>Dátum</th>
           <th>Legfontosabb tudnivalók</th>
         </tr>
-      </thead>
+       <tr>
+        <th>1,2 – RC1</th>
+        <th>Előnézet</th>
+        <th>2020. november</th>
+        <th>Az átjárók mögött IoT Edge eszközök</th>
+        <th>IoT Edge MQTT-közvetítő</th>
+      </tr>
+      <tr>
+       <th>1.0.10</th>
+        <th>Stable</th>
+        <th>2020. október</th>
+        <th>UploadSupportBundle Direct metódus</th>
+        <th>ásidejű mérőszámok feltöltése</th>
+        <th>Útvonal prioritása és élettartama</th>
+        <th>Modul indítási sorrendje</th>
+        <th>X. 509 manuális kiépítés</th>
+      </tr>
+      <tr>
+        <th>1.0.9</th>
+        <th>Stable</th>
+        <th>2020. március</th>
+        <th>X. 509 automatikus kiépítés a DPS-vel</th>
+        <th>RestartModule Direct metódus</th>
+       <th>támogatás – Bundle parancs</th>
+    </tr>
+    </thead>
     </table>
-      
-      
-      <div></div>
-      
   
-      1,2 – RC1
-      Előnézet
-      2020. november
-      Az átjárók mögött IoT Edge eszközök
-      IoT Edge MQTT-közvetítő
-  
-      1.0.10
-      Stable
-      2020. október
-      UploadSupportBundle Direct metódus
-      Futásidejű mérőszámok feltöltése
-      Útvonal prioritása és élettartama
-      Modul indítási sorrendje
-      X. 509 manuális kiépítés
-  
-      1.0.9
-      Stable
-      2020. március
-      X. 509 automatikus kiépítés a DPS-vel
-      RestartModule Direct metódus
-      támogatás – Bundle parancs
-  
-      Forrás:https://docs.microsoft.com/hu-hu/azure/iot-edge
+      Forrás:
+      <a href="https://docs.microsoft.com/hu-hu/azure/iot-edge"></a>
     </div>
    
 </body>
